@@ -1,0 +1,13 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.text_left {
+    float: left;
+    width: 80%;
+    display: block;
+}
+
+.float_left {
+    display: inline-block;
+}

@@ -1,0 +1,51 @@
+.sector {
+    border: solid 1px gainsboro;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.artc {
+    padding: 15px;
+}
+
+.float_right {
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.float_right2 {
+    float: right;
+    margin: 0;
+}
+
+.li_litt {
+    font-size: small;
+}
+
+#padleft {
+    padding-left: 2em;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    color: blue;
+}
+
+button:hover, button:focus{
+    background-color: blue;
+    color: white;
+}
+
+.boton {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background-color: white;
+}

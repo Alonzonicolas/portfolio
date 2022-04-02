@@ -1,0 +1,77 @@
+.sector {
+    border: solid 1px gainsboro;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.float_right {
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.float_right2 {
+    float: right;
+    margin: 0;
+}
+
+.artc {
+    padding: 15px;
+}
+
+.boton {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover, button:focus{
+    background-color: blue;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.logo {
+    width: 35px;
+    padding: 2em;
+    padding-right: 1em;
+    float: left;
+}
+
+.lista {
+    padding-left: 10px;
+    display: inline;
+}
+
+.li_tit {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.li_litt {
+    font-size: small;
+}
+
+.periodo {
+    font-size: small;
+    color: gainsboro;
+}
+
+h2 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
