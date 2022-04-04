@@ -8,6 +8,7 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { EducacionExperienciaComponent } from './educacion-experiencia/educacion-experiencia.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

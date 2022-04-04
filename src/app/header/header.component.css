@@ -31,7 +31,13 @@
 
 button {
     border: none;
-    background-color: white;
+    border-radius: 5px;
+}
+
+#pencil {
+    color: white;
+    background-color: transparent;
+    margin-left: 2em;
 }
 
 li {
@@ -55,6 +61,7 @@ ul {
     border-radius: 5px;
     padding: 0.5em;
     margin: 0;
+    margin-left: 0.5em;
 }
 
 .li_litt {
@@ -70,11 +77,6 @@ figcaption {
 button:hover, button:focus{
     background-color: blue;
     color: white;
-}
-
-button {
-    border: none;
-    background-color: white;
 }
 
 .boton {
