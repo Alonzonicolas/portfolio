@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faPencil } from '@fortawesome/free-solid-svg-icons';
+import { PortfolioService } from '../servicios/portfolio.service';
 
 @Component({
   selector: 'app-header',
@@ -8,12 +9,17 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent implements OnInit {
 
+  miPortfolio:any;
   pencil = faPencil;
 
-  constructor() {
+  constructor(private datosPortfolio:PortfolioService) {
   }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data=>{
+      console.log(data);
+      this.miPortfolio=data;
+    });
   }
 
 }

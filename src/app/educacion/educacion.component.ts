@@ -4,11 +4,11 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-educacion-experiencia',
-  templateUrl: './educacion-experiencia.component.html',
-  styleUrls: ['./educacion-experiencia.component.css']
+  selector: 'app-educacion',
+  templateUrl: './educacion.component.html',
+  styleUrls: ['./educacion.component.css']
 })
-export class EducacionExperienciaComponent implements OnInit {
+export class EducacionComponent implements OnInit {
 
   pluscircle = faPlusCircle;
   pencil = faPencil;

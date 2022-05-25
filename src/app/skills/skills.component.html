@@ -1,19 +1,23 @@
 <article class="sector">
-    <button class="float_right"><img class="boton" src="./assets/add.png" alt="add"></button>
+
+    <div class="float_right">
+    <button class="transparente"><fa-icon [icon]="pluscircle" class="add"></fa-icon></button>
+    </div>
+
     <div class="artc"><h2>Hard Skills & Soft Skills</h2>
 
     <div id="centro">
     <label for="resol">Resolución de problemas</label>
     <input type="range" id="resol" name="resol" value="80" readonly>
 
-    <button><img class="boton" src="./assets/lapiz.png" alt="lapiz"></button>
-    <button><img class="boton" src="./assets/borrar.png" alt="trash"></button>
+    <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
+    <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
     <br />
 
     <label for="dise">Diseño de Sistemas</label>
     <input type="range" id="dise" name="dise" value="20" readonly>
-    <button><img class="boton" src="./assets/lapiz.png" alt="lapiz"></button>
-    <button><img class="boton" src="./assets/borrar.png" alt="trash"></button>    
+    <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
+    <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>    
 
     </div>
     </div>
