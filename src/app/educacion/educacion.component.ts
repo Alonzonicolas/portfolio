@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { faPencil } from '@fortawesome/free-solid-svg-icons';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { PortfolioService } from '../servicios/portfolio.service';
 
 @Component({
   selector: 'app-educacion',
@@ -14,9 +15,13 @@ export class EducacionComponent implements OnInit {
   pencil = faPencil;
   trash = faTrash;
 
-  constructor() { }
+  educacionList:any;
+  constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data=>{
+      this.educacionList=data.education;
+    })
   }
 
 }

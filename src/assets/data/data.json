@@ -1,6 +1,38 @@
-{
+/* {
     "name": "Manuel Sadosky",
     "backimage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffondosmil.com%2Fmodernos&psig=AOvVaw2KEj_U8Gv9Ye5FrCBvAOsy&ust=1653598463669000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiE-8jE-_cCFQAAAAAdAAAAABAD",
     "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2F741616263628430305%2F&psig=AOvVaw3V7n2spqHo4L6i4rAG1B9Y&ust=1653598416635000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPj9mqXE-_cCFQAAAAAdAAAAABAD",
     "position": "informático"
-}
+
+
+}*/
+{
+"education": [
+    {
+        "school": "UTN",
+    }
+]
+},
+
+<img class="logo" src="./assets/ort.jpg" alt="ort">
+    <ul class="lista">
+        <li class="li_tit">UTN</li>
+        <li class="li_litt">Ingeniería, Sistemas computacionales, 0</li>
+        <li class="periodo">2019 - 2023</li>
+    </ul></div>
+
+
+        <img class="logo" src="./assets/CETI.png" alt="ceti">
+    <ul class="lista">
+        <li class="li_tit">Centro de Enseñanza Técnica Industrial</li>
+        <li class="li_litt">Tecnología, Desarrollo de Software, 82</li>
+        <li class="periodo">2014 - 2018</li>
+    </ul></div>
+
+    
+        <img class="logo" src="./assets/firefox.png" alt="logo_1">
+    <ul class="lista">
+        <li class="li_tit">Escuela Secundaria Técnica 14</li>
+        <li class="li_litt">Técnico, Electrónica, comunicación y sistemas de control, 0</li>
+        <li class="periodo">2012 - 2014</li>
+    </ul>

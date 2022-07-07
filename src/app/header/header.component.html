@@ -1,17 +1,17 @@
-<header>
+<header *ngIf="usuario">
     <div id="main" class="sector">
     <div><img  id="fondo" src="./assets/fondo.jpg" alt="fondo"></div>
     <div id="head1">
         
-        <img src="../../assets/profile.jpg" alt="profile" id="profile">
+        <img src="{{usuario.imgUsu}}" alt="profile" id="profile">
         <button id="pencil"><fa-icon [icon]="pencil"></fa-icon></button>
         
         <div id="first">
-        <div class="text_left"><h1 id="name">{{miPortfolio.name}}</h1>
+        <div class="text_left"><h1 id="name">{{usuario.nombreUsu}} {{usuario.apellidoUsu}}</h1>
 
     <ul id="info">
-        <li class="li_litt">Full Stack Developer Jr.</li>
-        <li class="li_litt">La Paz - Entre Ríos (Argentina) <a href="#">Información de contacto</a></li>
+        <li class="li_litt">{{usuario.tituloUsu}}</li>
+        <li class="li_litt">{{usuario.localidadUsu}}<a href="#">Información de contacto</a></li>
     </ul></div>
         </div>
 

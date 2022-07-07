@@ -6,46 +6,31 @@
 
     <div class="artc"><h2>Educación</h2>
 
+    <div>
+        <ul>
+            <li *ngFor="let educacion of educacionList">
+                <p>{{educacion.school}}</p>
+            </li>
+        </ul>
+    <ul>
+    <li>
+    <div>
         <div class="float_right2">
         <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
         <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
         </div>
 
     <img class="logo" src="./assets/ort.jpg" alt="ort">
-    <ul class="lista">
-        <li class="li_tit">UTN</li>
-        <li class="li_litt">Ingeniería, Sistemas computacionales, 0</li>
-        <li class="periodo">2019 - 2023</li>
-    </ul></div>
-
-    <div class="artc">
-
-        <div class="float_right2">
-        <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
-        <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
-        </div>
-
-
-        <img class="logo" src="./assets/CETI.png" alt="ceti">
-    <ul class="lista">
-        <li class="li_tit">Centro de Enseñanza Técnica Industrial</li>
-        <li class="li_litt">Tecnología, Desarrollo de Software, 82</li>
-        <li class="periodo">2014 - 2018</li>
-    </ul></div>
-
-    <div class="artc">
-
-        <div class="float_right2">
-        <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
-        <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
-        </div>
-
-        <img class="logo" src="./assets/firefox.png" alt="logo_1">
-    <ul class="lista">
-        <li class="li_tit">Escuela Secundaria Técnica 14</li>
-        <li class="li_litt">Técnico, Electrónica, comunicación y sistemas de control, 0</li>
-        <li class="periodo">2012 - 2014</li>
-    </ul></div>
+    <span class="lista">
+        <p class="li_tit">educacion.school</p>
+        <p class="li_litt">Ingeniería, Sistemas computacionales, 0</p>
+        <p class="periodo">2019 - 2023</p>
+    </span></div>
+    </li>
+    </ul>
+    </div>
+    </div>
+   
     
 </article>
 
