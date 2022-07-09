@@ -10,10 +10,6 @@
     margin-right: 1em;
 }
 
-textarea {
-    display: none;
-}
-
 .boton {
     margin: 0;
     padding: 0;
@@ -51,4 +47,9 @@ h2 {
 
 .add {
     color: lightseagreen;
+}
+
+#textarea {
+    display: none;
+    float: value;
 }

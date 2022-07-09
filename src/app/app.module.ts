@@ -15,7 +15,7 @@ import { EducacionComponent } from './educacion/educacion.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -38,7 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     FontAwesomeModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

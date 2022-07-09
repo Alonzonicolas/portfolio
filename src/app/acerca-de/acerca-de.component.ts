@@ -8,9 +8,21 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons';
 })
 export class AcercaDeComponent implements OnInit {
 
+  descripcion = 'Matemático, físico e informático argentino considerado por muchos como el padre de la computación en la Argentina. test';
+
   pencil = faPencil;
 
   constructor() { }
+
+  mostrarTxtArea():void {
+    let txtArea:HTMLTextAreaElement = document.getElementById('textarea') as HTMLTextAreaElement;
+    txtArea.style.display = 'block';
+  }
+
+  ocultarTxtArea():void {
+    let txtArea:HTMLTextAreaElement = document.getElementById('textarea') as HTMLTextAreaElement;
+    txtArea.style.display = 'none';
+  }
 
   ngOnInit(): void {
   }
