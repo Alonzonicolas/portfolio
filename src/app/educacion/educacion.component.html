@@ -1,6 +1,6 @@
 <article class="sector">
 
-<div class="float_right">
+<!--<div class="float_right">
     <button class="transparente"><fa-icon [icon]="pluscircle" class="add"></fa-icon></button>
     </div>
 
@@ -29,9 +29,29 @@
     </li>
     </ul>
     </div>
+    </div>-->
+
+   <div class="float_right">
+    <button class="transparente"><fa-icon [icon]="pluscircle" class="add"></fa-icon></button>
     </div>
-   
     
+    <div class="artc"><h2>Educación</h2>
+
+        <div *ngFor="let educacion of educaciones">
+
+        <div class="float_right2">
+        <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
+        <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
+        </div>
+
+        <img class="logo" src="{{educacion.imgEduc}}" alt="">
+    <ul class="lista">
+        <li class="li_tit">{{educacion.tituloEduc}}</li>
+        <li class="li_litt">{{educacion.descripEduc}}</li>
+        <li>{{educacion.fechaIn}} {{educacion.fechaFin}}</li>
+    </ul></div>
+    </div>
+
 </article>
 
 

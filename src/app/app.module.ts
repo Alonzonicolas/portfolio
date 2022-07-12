@@ -17,6 +17,7 @@ import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.componen
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ProfileService } from './servicios/profile.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

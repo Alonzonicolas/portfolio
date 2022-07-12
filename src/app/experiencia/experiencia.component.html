@@ -6,15 +6,18 @@
     
     <div class="artc"><h2>Experiencia</h2>
 
+        <div *ngFor="let experiencia of experiencias">
+
         <div class="float_right2">
         <button class="transparente"><fa-icon [icon]="pencil"></fa-icon></button>
         <button class="transparente"><fa-icon [icon]="trash"></fa-icon></button>
         </div>
 
-        <img class="logo" src="./assets/firefox.png" alt="logo_1">
+        <img class="logo" src="{{experiencia.imgExp}}" alt="">
     <ul class="lista">
-        <li class="li_tit">Backend Developer</li>
-        <li class="li_litt">Pixar - Jornada parcial</li>
-        <li>mar 2019 - actualidad - 2 años y 6 meses Guadalajara y alrededores, México</li>
+        <li class="li_tit">{{experiencia.tituloExp}}</li>
+        <li class="li_litt">{{experiencia.descripExp}}</li>
+        <li>{{experiencia.fechaInExp}} {{experiencia.fechaFinExp}}</li>
     </ul></div>
+    </div>
 </article>

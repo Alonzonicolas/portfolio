@@ -36,4 +36,8 @@ export class HeaderComponent implements OnInit {
     })
   }
 
+  /*updateUsua(usuario:Usuario){
+    this.profileService.updateUsuario(usuario)
+  }*/
+
 }

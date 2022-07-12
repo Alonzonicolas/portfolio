@@ -8,6 +8,9 @@
         
         <div id="first">
         <div class="text_left"><h1 id="name">{{usuario.nombreUsu}} {{usuario.apellidoUsu}}</h1>
+            <br>
+            <input type="text" [(ngModel)]="usuario.nombreUsu">
+            <!--<input type="button" (click)="updateUsua('usuario.nombreUsu')" value="Confirmar">-->
 
     <ul id="info">
         <li class="li_litt">{{usuario.tituloUsu}}</li>
@@ -21,8 +24,6 @@
         <button class="btn btn-primary">Más</button>
         </div>
     </div>
-
-    <app-acerca-de></app-acerca-de>
 
     </div>
     <nav></nav>
